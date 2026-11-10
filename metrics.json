@@ -1,0 +1,23 @@
+{
+  "validation": {
+    "rmse": 0.6802233228398948,
+    "mae": 0.4926766430915721,
+    "r2": 0.7805152233259456
+  },
+  "test": {
+    "rmse": 0.6791584224628994,
+    "mae": 0.4928843121408846,
+    "r2": 0.7774359046559709
+  },
+  "best_iteration": 1076,
+  "features": [
+    "MolWt",
+    "TPSA",
+    "NumHDonors",
+    "NumHAcceptors",
+    "NumRotatableBonds",
+    "NumAromaticRings",
+    "FractionCSP3",
+    "HeavyAtomCount"
+  ]
+}
