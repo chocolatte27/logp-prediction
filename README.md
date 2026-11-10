@@ -11,6 +11,8 @@ DataTalks.Club ML Zoomcamp, midterm project.
 
 **Goal:** a regression model that predicts logP from 8 simple molecular descriptors. The model is served through a REST API. A chemist or a screening pipeline sends the 8 numbers and gets a predicted logP plus a check against Lipinski's limit of 5.
 
+**How the model will be used:** During early drug screening, a chemist or an automated pipeline computes the 8 descriptors for each candidate molecule (these are cheap to calculate from the structure). It sends them to the `/predict` API and gets back an estimated logP and a flag for Lipinski's limit (logP ≤ 5). Molecules that fail the check can be dropped early, so lab time goes to the more promising ones. The output is a quick screening estimate, not a replacement for lab measurement.
+
 **Note:** the target is PubChem's computed **XLogP3** value, not lab-measured logP. The model learns to approximate that calculation from a short summary of the molecule.
 
 ## 2. Dataset
