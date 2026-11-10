@@ -15,7 +15,7 @@ DataTalks.Club ML Zoomcamp, midterm project.
 
 ## 2. Dataset
 
-[426k PubChem Molecules for LogP Prediction]([https://www.kaggle.com/datasets/malikussaid/426k-pubchem-molecules-for-logp-prediction]) (Kaggle). It contains 426,850 molecules that exist in PubChem, ChEMBL and eMolecules.
+[426k PubChem Molecules for LogP Prediction](https://www.kaggle.com/datasets/malikussaid/426k-pubchem-molecules-for-logp-prediction) (Kaggle). It contains 426,850 molecules that exist in PubChem, ChEMBL and eMolecules.
 
 - **Target:** `logP_target`
 - **Features:** `MolWt`, `TPSA`, `NumHDonors`, `NumHAcceptors`, `NumRotatableBonds`, `NumAromaticRings`, `FractionCSP3`, `HeavyAtomCount`
