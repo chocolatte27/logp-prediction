@@ -1,0 +1,6 @@
+xgboost==3.4.1
+fastapi==0.141.1
+pydantic==2.14.1
+uvicorn==0.54.0
+pandas==2.3.3
+scikit-learn==1.6.1
